@@ -1,2 +1,2 @@
 # Portfólio
-Meu Portfólio projeto pessoa
+Meu Portfólio projeto pessoal 
