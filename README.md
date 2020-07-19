@@ -1,6 +1,6 @@
 # Portfólio
 Meu Portfólio projeto pessoal 
 
-## Em desenvolviemnto 
+## Em desenvolvimento  
 
 ## Você pode acessar clicando aqui []()
