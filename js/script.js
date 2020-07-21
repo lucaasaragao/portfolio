@@ -16,7 +16,7 @@ WriteDefaultValuesTerminal();
 
  
 document.querySelector('body').addEventListener('keydown', function(event) {
-  window.location.href = 'projects.html';
+   window.location.href = 'projects.html';
 }); 
 
 
