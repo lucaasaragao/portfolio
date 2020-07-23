@@ -254,6 +254,25 @@ textarea {
       justify-content: center;
       flex-wrap: wrap;
       font-size: 18px;
-
     }
+}
+
+@media (max-width: 375px) {
+  textarea{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    font-size: 9px;
+  }
+
+  .footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+  }
+
+
+
 }
