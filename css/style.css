@@ -93,11 +93,15 @@ a:hover{
 
 
 
-img{
+.console-folder img{
   margin: 25px;
   width: 150px;
   height: 150px;
   cursor: pointer;
+}
+
+.folder-1 img{
+  margin-top: 25px;
 }
 
 p{
