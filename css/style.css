@@ -104,6 +104,17 @@ a:hover{
   margin-top: 25px;
 }
 
+.sub-Text{
+  position: absolute;
+  display: flex;
+  margin-top: 5%;
+  margin-left: 22%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+ }
+
 p{
   color: white;
 }
@@ -151,6 +162,7 @@ textarea {
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
     background-color: white;
     background-color: #ff6057;
+    cursor: pointer;
     }
 
   .dot-yelow{
@@ -161,6 +173,7 @@ textarea {
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
     background-color: white;
     background-color: #ffc22e;
+    cursor: pointer;
     }
 
   .dot-green{
@@ -171,6 +184,7 @@ textarea {
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
     background-color: white;
     background-color: #28ca40;
+    cursor: pointer;
     }
 
     .footer{

@@ -1,5 +1,12 @@
 let textarea = document.querySelector(".textarea")
-testString = "Lucas@magno:$ ~ npm install portfólio  \n[**************************] successful  \nLucas@magno:$ ~ Olá, eu sou o Lucas. Obrigado por me instalar :) \nAjudo alguns designs, pequenas agências e algumas empresas a darem \nvida às suas ideias. Com tecnologias como ~Node ~React ~Django ~Spring\ncom uma boa ajuda do ~Stack Overflow e muito café no final tudo sempre\ndá certo.\n\n \nLucas@magno:$ ~ Pressione enter para continuar..."
+testString = "Lucas Magno:$ ~ npm iniciando portfólio" + 
+"\n[**********************************] iniciado com sucesso!!!" +
+ "\nLucas@magno:$ ~ Olá, eu sou o Lucas. Obrigado por me instalar :) " + 
+ "\nAjudo pessoas, pequenas e grandes agências, bem como empresas, a darem vida às suas ideias. " + 
+ "\nUtilizo tecnologias como ~Java, ~JavaScript e ~Python, além de frameworks como ~Spring Boot, ~Angular e ~Django." +  
+ "\nCom a ajuda do ~Stack Overflow e muito café, no final tudo sempre dá certo.\n\n " + 
+ "\nLucas@magno:$ ~ Pressione enter para continuar..."
+
 
 var counter = 0;                   
 
@@ -10,7 +17,7 @@ function WriteDefaultValuesTerminal () {
       if (counter < testString.length) {            
          WriteDefaultValuesTerminal();            
       }                       
-   }, 40)
+   }, 20)
 }
 WriteDefaultValuesTerminal();
 
