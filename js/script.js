@@ -1,32 +1,34 @@
-let textarea = document.querySelector(".textarea")
-testString = "Lucas Magno:$ ~ npm iniciando portfólio" + 
-"\n[**********************************] iniciado com sucesso!!!" +
- "\nLucas@magno:$ ~ Olá, eu sou o Lucas. Obrigado por me instalar :) " + 
- "\nAjudo pessoas, pequenas e grandes agências, bem como empresas, a darem vida às suas ideias. " + 
- "\nUtilizo tecnologias como ~Java, ~JavaScript e ~Python, além de frameworks como ~Spring Boot, ~Angular e ~Django." +  
- "\nCom a ajuda do ~Stack Overflow e muito café, no final tudo sempre dá certo.\n\n " + 
- "\nLucas@magno:$ ~ Pressione enter para continuar..."
+const textarea = document.querySelector(".textarea");
 
+const testString = `Lucas Magno:$ ~ npm iniciando portfólio
+[**********************************] iniciado com sucesso!!!
 
-var counter = 0;                   
+Lucas@magno:$ ~ Olá, eu sou o Lucas. Obrigado por me instalar :) 
+Ajudo pessoas, pequenas e grandes agências, bem como empresas, a darem vida às suas ideias. 
+Utilizo tecnologias como ~Java, ~JavaScript e ~Python, além de frameworks como ~Spring Boot, ~Angular e ~Django.  
+Com a ajuda do ~Stack Overflow e muito café, no final tudo sempre dá certo.
 
-function WriteDefaultValuesTerminal () {           
-   setTimeout(function () {    
-    textarea.value += testString[counter]         
-      counter++;                     
-      if (counter < testString.length) {            
-         WriteDefaultValuesTerminal();            
-      }                       
-   }, 20)
+Lucas@magno:$ ~ Pressione enter para continuar...`;
+
+let counter = 0;
+
+function WriteDefaultValuesTerminal () {
+setTimeout(() => {
+   textarea.value += testString[counter];
+    counter++;
+   if (counter < testString.length) {
+      WriteDefaultValuesTerminal();
+      }
+   }, 20);
 }
+
 WriteDefaultValuesTerminal();
 
-
-document.querySelector('body').addEventListener('keydown', function(event) {
-   if (event.keyCode == 13) {
+document.addEventListener('keydown', (e) => {
+   if (e.key === 'Enter') {
       window.location.href = 'projects.html';
    }
-}); 
+});
 
 
 
